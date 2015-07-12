@@ -1,3 +1,64 @@
 // Place all the styles related to the Main controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+
+#index {
+
+	.arabic {
+		display: block;
+		height: 85vh;
+		margin-top: 7.5vh
+	}
+
+	.arabic.right {
+		float: right;
+	}
+
+	.cd {
+		display: block;
+		width: 20em;
+		margin: 10vh auto 2em;
+	}
+
+	.sweatshirt {
+		display: block;
+		width: 20em;
+		margin: 2em auto;
+	}
+
+	.navigation {
+		list-style-type: none;
+		text-align: center;
+		margin: 0 auto;
+		padding: 0;
+
+		li {
+
+			a {
+				font-family: 'Impact', sans-serif;
+				letter-spacing: 3px;
+				color: #000;
+				font-size: 1.25em;
+				text-transform: uppercase;
+				text-decoration: none;
+			}
+
+			a:hover {
+				background: #000;
+			}
+		}
+	}
+
+	p.copyright {
+		display: block;
+		text-align: center;
+		margin: 0;
+		font-family: "Courier New";
+		font-weight: 500;
+		letter-spacing: 3px;
+		font-size: 10px;
+	}
+}
