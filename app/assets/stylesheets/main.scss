@@ -17,9 +17,22 @@
 		float: right;
 	}
 
+	.nav {
+		position: fixed;
+		top: 3em;
+		left: 0;
+		width: 20em;
+	}
+
+	.logo {
+		width: 75%;
+		margin: 3em auto;
+		display: block;
+	}
+
 	.cd {
 		display: block;
-		width: 20em;
+		width: 100%;
 		margin: 10vh auto 2em;
 	}
 
