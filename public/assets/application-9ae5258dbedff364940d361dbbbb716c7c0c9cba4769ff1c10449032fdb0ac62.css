@@ -11,41 +11,42 @@
 /* line 20, /Users/Bryan/Desktop/projects/jednayef/app/assets/stylesheets/main.scss */
 #index .nav {
   position: fixed;
-  top: 3em;
+  top: 0;
   left: 0;
+  height: 100%;
   width: 20em;
 }
-/* line 27, /Users/Bryan/Desktop/projects/jednayef/app/assets/stylesheets/main.scss */
+/* line 28, /Users/Bryan/Desktop/projects/jednayef/app/assets/stylesheets/main.scss */
 #index .logo {
-  width: 75%;
+  width: 50%;
   margin: 3em auto;
   display: block;
 }
-/* line 33, /Users/Bryan/Desktop/projects/jednayef/app/assets/stylesheets/main.scss */
+/* line 34, /Users/Bryan/Desktop/projects/jednayef/app/assets/stylesheets/main.scss */
 #index .cd {
   display: block;
   width: 100%;
   margin: 10vh auto 2em;
 }
-/* line 39, /Users/Bryan/Desktop/projects/jednayef/app/assets/stylesheets/main.scss */
+/* line 40, /Users/Bryan/Desktop/projects/jednayef/app/assets/stylesheets/main.scss */
 #index .sweatshirt {
   display: block;
   width: 20em;
   margin: 2em auto;
 }
-/* line 44, /Users/Bryan/Desktop/projects/jednayef/app/assets/stylesheets/main.scss */
+/* line 45, /Users/Bryan/Desktop/projects/jednayef/app/assets/stylesheets/main.scss */
 #index .sweatshirt img {
   display: block;
   width: 100%;
 }
-/* line 50, /Users/Bryan/Desktop/projects/jednayef/app/assets/stylesheets/main.scss */
+/* line 51, /Users/Bryan/Desktop/projects/jednayef/app/assets/stylesheets/main.scss */
 #index .navigation {
   list-style-type: none;
   text-align: center;
   margin: 0 auto;
   padding: 0;
 }
-/* line 58, /Users/Bryan/Desktop/projects/jednayef/app/assets/stylesheets/main.scss */
+/* line 59, /Users/Bryan/Desktop/projects/jednayef/app/assets/stylesheets/main.scss */
 #index .navigation li a {
   font-family: 'Impact', sans-serif;
   letter-spacing: 3px;
@@ -54,11 +55,11 @@
   text-transform: uppercase;
   text-decoration: none;
 }
-/* line 67, /Users/Bryan/Desktop/projects/jednayef/app/assets/stylesheets/main.scss */
+/* line 68, /Users/Bryan/Desktop/projects/jednayef/app/assets/stylesheets/main.scss */
 #index .navigation li a:hover {
   background: #000;
 }
-/* line 73, /Users/Bryan/Desktop/projects/jednayef/app/assets/stylesheets/main.scss */
+/* line 74, /Users/Bryan/Desktop/projects/jednayef/app/assets/stylesheets/main.scss */
 #index p.copyright {
   display: block;
   text-align: center;
@@ -67,6 +68,9 @@
   font-weight: 500;
   letter-spacing: 3px;
   font-size: 10px;
+  position: absolute;
+  bottom: 3em;
+  width: 100%;
 }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
